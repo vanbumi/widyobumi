@@ -216,14 +216,14 @@ header.navbar-inverse.navbar-fixed-bottom {
 .sidebar-user-links a {
     color: #fff;
     opacity: .3;
-    filter: alpha(opacity:30);
+    filter: alpha(opacity=30);
     margin-right: 5px;
 }
 .sidebar-user-links a:focus, .sidebar-user-links a:hover {
     color: #fff;
     text-decoration: none;
     opacity: 1;
-    filter: alpha(opacity:100);
+    filter: alpha(opacity=100);
 }
 .sidebar-user-links a>i {
     font-size: 14px;
@@ -290,14 +290,14 @@ header.navbar-inverse.navbar-fixed-bottom {
 .sidebar-nav a>.sidebar-nav-icon, .sidebar-nav a>.sidebar-nav-indicator {
     display: inline-block;
     opacity: .5;
-    filter: alpha(opacity:50);
+    filter: alpha(opacity=50);
     width: 18px;
     font-size: 14px;
     text-align: center;
 }
 .sidebar-nav a.active, .sidebar-nav a.active>.sidebar-nav-icon, .sidebar-nav a.active>.sidebar-nav-indicator, .sidebar-nav a.open, .sidebar-nav a.open>.sidebar-nav-icon, .sidebar-nav a.open>.sidebar-nav-indicator, .sidebar-nav a:hover, .sidebar-nav a:hover>.sidebar-nav-icon, .sidebar-nav a:hover>.sidebar-nav-indicator, .sidebar-nav li.active>a, .sidebar-nav li.active>a>.sidebar-nav-icon, .sidebar-nav li.active>a>.sidebar-nav-indicator {
     opacity: 1;
-    filter: alpha(opacity:100);
+    filter: alpha(opacity=100);
 }
 .sidebar-nav a.active>.sidebar-nav-indicator, .sidebar-nav a.open>.sidebar-nav-indicator, .sidebar-nav li.active>a>.sidebar-nav-indicator {
     -webkit-transform: rotate(-90deg);
@@ -349,7 +349,7 @@ header.navbar-inverse.navbar-fixed-bottom {
     font-size: 11px;
     text-transform: uppercase;
     opacity: .5;
-    filter: alpha(opacity:50);
+    filter: alpha(opacity=50);
 }
 .sidebar-header-options {
     float: right;
@@ -366,13 +366,13 @@ header.navbar-inverse.navbar-fixed-bottom {
     text-align: center;
     color: #fff;
     opacity: .3;
-    filter: alpha(opacity:30);
+    filter: alpha(opacity=30);
 }
 .sidebar-header-options a.active, .sidebar-header-options a:focus, .sidebar-header-options a:hover, .sidebar-nav .sidebar-header-options a.active, .sidebar-nav .sidebar-header-options a:focus, .sidebar-nav .sidebar-header-options a:hover {
     background: 0 0;
     color: #fff;
     opacity: 1;
-    filter: alpha(opacity:100);
+    filter: alpha(opacity=100);
 }
 .sidebar-header-options a>i {
     font-size: 14px;
